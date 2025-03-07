@@ -80,6 +80,11 @@ Example Output (all_sequences.fasta):
   1. Single or Separate Files: Choose whether you want to save all sequences in a single file or each in a separate file.
   2. Custom Sequence Length: You can specify how many characters per line to split the sequence for better readability.
 
+## License
+
+This project is protected by copyright. All rights are reserved by the author.
+
+
 For any questions or feedback, feel free to reach out to the repository owner at "ashutosh.kr.email@gmail.com".
 
 
