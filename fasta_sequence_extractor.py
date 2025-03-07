@@ -66,7 +66,7 @@ Please follow the prompts to extract the desired sequences.
     """)
 
     # Ask the user for the location of the FASTA file
-    fasta_file = input("Please enter the path to your FASTA file without "double quote" (e.g., /home/user/sequences.fasta): ").strip()
+    fasta_file = input("Please enter the path to your FASTA file without double quote (e.g., /home/user/sequences.fasta): ").strip()
     
     # Check if the FASTA file exists
     try:
@@ -86,9 +86,9 @@ Please follow the prompts to extract the desired sequences.
 
     # If single file, ask for the output file name
     if file_choice == 'single':
-        output_dir = input("Enter the directory where you want to save the output "without double quote" (e.g., /home/user/output/): ").strip()
+        output_dir = input("Enter the directory where you want to save the output without double quote (e.g., /home/user/output/): ").strip()
     else:
-        output_dir = input("Enter the directory where you want to save the separate files "without double quote"(e.g., /home/user/output/): ").strip()
+        output_dir = input("Enter the directory where you want to save the separate files without double quote (e.g., /home/user/output/): ").strip()
 
     # Check if the output directory exists; if not, create it
     if not os.path.exists(output_dir):
