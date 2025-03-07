@@ -61,6 +61,7 @@ FASTA Sequence Extractor is a Python script that allows you to extract specific 
 Example Input:
   Enter the path to your FASTA file: /path/to/your/file.fasta
   Do you want all sequences in a single file (enter 'single') or separate files (enter 'separate'): single
+  Specify the directory where you want to save the output files (e.g., /home/user/output/)
   Enter the number of characters per line: 60
   Enter the name for the output file (e.g., all_megahits.txt): all_sequences.txt
   Enter the description (header) of the sequence you want to extract (e.g., >megahit_1): >megahit_1
