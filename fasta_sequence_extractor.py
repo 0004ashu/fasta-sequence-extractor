@@ -106,3 +106,4 @@ Welcome to the FASTA Sequence Extractor!
             extract_fasta_from_file(fasta_file, description[1:], output_file, single_file, line_length)
         else:
             print("Invalid input. Please enter a valid description starting with '>' or type 'done' to exit.")
+
